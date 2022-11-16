@@ -19,17 +19,17 @@ const App = () => {
             <div className="info-container">
                 <Objective className="test"/>
             </div>
-            <div className="one-pages-container">
+            <div id="one" className="one-pages-container">
                 <h1>One-Pages</h1>
                 <OnePageList info={onePages}/>
             </div>
-            <div className="projects-container">
+            <div id="pro" className="projects-container">
                 <br />
                 <h1 className="title">Projects</h1>
                 <ProjectList Projects={Projects}/>
                 <br />
             </div>
-            <div className="find-me-container">
+            <div id="find" className="find-me-container">
                 <FindList networks={networks}/>
             </div>
         </div>
