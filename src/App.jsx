@@ -5,6 +5,8 @@ import Objective from "./components/Objective";
 import './App.css'
 import { onePages } from "./components/one-page/info";
 import OnePageList from "./components/one-page/OnepageList";
+import ProjectList from "./components/projects/ProjectList";
+import { Projects } from "./components/projects/info";
 
 const App = () => {
     return (
@@ -17,6 +19,12 @@ const App = () => {
             <div className="one-pages-container">
                 <h1>One-Pages</h1>
                 <OnePageList info={onePages}/>
+            </div>
+            <div className="projects-container">
+                <br />
+                <h1 className="title">Projects</h1>
+                <ProjectList Projects={Projects}/>
+                <br />
             </div>
         </div>
     );

@@ -1,16 +1,43 @@
-//tile, liveVersion, repoLink, img
-export const onePages = [
+export const Projects = [
     {
-        title: "Naruto Fan Page",
-        liveVersion: "https://quikiesamus.github.io/Naruto-Simple-Pages/",
-        repoLink: "github.com/quikiesamus/naruto-simple-pages",
-        img: "https://quikiesamus.github.io/my-portfolio/img/naruto.png"
+        title: "Turn Based Combat System",
+        technologies: ["HTML & CSS", "Javascript"],
+        overview: "Ever played Final Fantasy or Pokémon? Yes, it's a turn based, rpg-like combat system",
+        link: "https://github.com/quikiesamus/rpg-practice/"
     },
 
     {
-        title: "Gymca Landing Page",
-        link: "https://quikiesamus.github.io/gymca-landing-page/",
-        repoLink: "github.com/quikiesamus/gymca-landing-page",
-        img: "https://quikiesamus.github.io/my-portfolio/img/gymca.png"
+        title: "Pokédex",
+        technologies: ["HTML & CSS", "Javascript", "PokeAPI"],
+        overview: "A Pokédex is a device which stores information about each Pokémon. This projects displays Pokémon data thanks to pokeAPI.co", 
+        link: "https://quikiesamus.github.io/javascript-urbe/devs/ruben/proyectos/pokedex/"
+    },
+
+    {
+        title: "Reloj Negus",
+        technologies: ["HTML & CSS", "Javascript"],
+        overview: "Simple Reloj usando la clase Date. Estilo minimalista", 
+        link: "https://quikiesamus.github.io/javascript-urbe/devs/ruben/proyectos/watch/index.html"
+    },
+
+    {
+        title: "Caracteriza-inador",
+        technologies: ["HTML & CSS", "Javascript"],
+        overview: "Contador de caracteres, espacios y palabras que destruiran toda el area limítrofe", 
+        link: "https://quikiesamus.github.io/javascript-urbe/devs/ruben/proyectos/textCounter/index.html"
     }
+    
+    // {
+    //     title: "Embroidery Management System",
+    //     technologies: ["HTML & CSS", "Javascript", "PHP", "MYSQL", "Bootstrap"],
+    //     overview: "System that takes control of embroidery processes. (Not Finished)", 
+    //     link: "https://github.com/quikiesamus/gymca-control-bordados/"
+    // },
+    
+    // {
+    //     title: "Laboratory Exams Administration",
+    //     technologies: ["HTML & CSS", "Javascript", "PHP", "MYSQL"],
+    //     overview: "System that takes control of embroidery processes. (Not Finished)", 
+    //     link: "https://github.com/quikiesamus/laboratory-php/"
+    // }
 ];
