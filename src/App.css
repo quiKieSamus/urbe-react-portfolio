@@ -113,3 +113,24 @@ body {
     color: white;
     width: 90%;
 }
+
+.find-list-container {
+    background-color: rgb(21, 21, 138);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.find-me-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.title-find {
+    background-color: rgb(21, 21, 136);
+    text-align: center;
+    margin: 0;
+}

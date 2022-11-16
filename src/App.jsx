@@ -5,8 +5,11 @@ import Objective from "./components/Objective";
 import './App.css'
 import { onePages } from "./components/one-page/info";
 import OnePageList from "./components/one-page/OnepageList";
-import ProjectList from "./components/projects/ProjectList";
 import { Projects } from "./components/projects/info";
+import ProjectList from "./components/projects/ProjectList";
+import { networks } from "./components/find-me/info";
+import FindList from "./components/find-me/FindList";
+
 
 const App = () => {
     return (
@@ -25,6 +28,9 @@ const App = () => {
                 <h1 className="title">Projects</h1>
                 <ProjectList Projects={Projects}/>
                 <br />
+            </div>
+            <div className="find-me-container">
+                <FindList networks={networks}/>
             </div>
         </div>
     );
