@@ -9,7 +9,7 @@ export const onePages = [
 
     {
         title: "Gymca Landing Page",
-        liveVersion: "https://quikiesamus.github.io/gymca-landing-page/",
+        link: "https://quikiesamus.github.io/gymca-landing-page/",
         repoLink: "github.com/quikiesamus/gymca-landing-page",
         img: "https://quikiesamus.github.io/my-portfolio/img/gymca.png"
     }
