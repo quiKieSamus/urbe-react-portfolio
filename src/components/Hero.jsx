@@ -6,7 +6,7 @@ const Hero = () => {
             <h1>Hello, I'm <span className="hero-name">Rubén</span></h1>
             <div>a Software Engineer</div>
             <div>
-                <button className="hero-btn">Know about me</button>
+                <a href="#obj"><button className="hero-btn">Know about me</button></a>
             </div>
         </div>
     );

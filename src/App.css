@@ -1,5 +1,12 @@
-body {
+* {
+    box-sizing: border-box;
+}
+
+body,
+html,
+.core-container {
     margin: 0;
+    height: 100%;
 }
 
 .navbar-container {
@@ -7,20 +14,23 @@ body {
     color: white;
     width: 100%;
     display: flex;
+    text-align: center;
+    align-items: center;
     justify-content: space-evenly;
     align-items: center;
     position: fixed;
-    
+
 }
 
 .bar-item {
     height: inherit;
     padding: 20px;
+    width: 25vw;
 }
 
 .bar-item:hover {
     background-color: blue;
-    
+
 }
 
 .nav-link {
@@ -29,13 +39,16 @@ body {
 }
 
 .hero-container {
-    height: 100vh;
+    height: 110vh;
     text-align: center;
     display: flex;
     font-size: 2em;
     flex-direction: column;
     color: rgb(208, 204, 204);
-    background-color: blue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./components/imgs/code.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     justify-content: center;
 }
 
@@ -45,8 +58,9 @@ body {
 }
 
 .info-container {
-    background-color: darkblue;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(95, 3, 3));
 }
+
 .obj {
     display: flex;
     flex-direction: column;
@@ -54,14 +68,53 @@ body {
     justify-content: center;
     color: rgb(208, 204, 204);
     margin: auto 25vw;
-    height: 100vw;
+    height: 50vw;
+}
+
+
+.gallery-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn-backwards {
+    left: 100%;
+}
+
+.btn-forward {
+    right: 100%;
+}
+
+.gallery-btn {
+    height: 100%;
+    opacity: 0.5;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    position: relative;
+}
+
+.gallery-btn:hover {
+    opacity: 0.9;
+}
+
+.imgs {
+    width: 300px;
+    height: 228.3px;
+    border: white solid 3px;
+    border-radius: 5px;
+}
+
+.sh {
+    text-align: center;
 }
 
 .one-pages-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(0, 38, 59);
+    background-image: linear-gradient(rgb(95, 3, 3), rgb(0, 0, 0));
     color: white;
 }
 
@@ -78,7 +131,8 @@ body {
     width: 50vw;
 }
 
-.repo-link, .live-link {
+.repo-link,
+.live-link {
     text-decoration: none;
     color: white;
 }
@@ -89,11 +143,11 @@ body {
 }
 
 .projects-container {
-    background-color: rgb(5, 179, 179);
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(5, 3, 95));
 }
 
 .card-container {
-    border: black 3px solid;
+    border: rgb(88, 88, 88) 3px solid;
     display: flex;
     flex-direction: column;
     align-items: center;

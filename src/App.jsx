@@ -1,7 +1,7 @@
 import React from "react"
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Objective from "./components/Objective";
+import Objective from "./components/about-me/Objective";
 import './App.css'
 import { onePages } from "./components/one-page/info";
 import OnePageList from "./components/one-page/OnepageList";
@@ -20,7 +20,7 @@ const App = () => {
                 <Objective className="test"/>
             </div>
             <div id="one" className="one-pages-container">
-                <h1>One-Pages</h1>
+                <h1>One-Pages <small><small>or landing pages</small></small></h1>
                 <OnePageList info={onePages}/>
             </div>
             <div id="pro" className="projects-container">
