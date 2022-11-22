@@ -2,7 +2,7 @@ let i = 0;
 const Gallery = () => {
     const handleGallery = (e) => {
         const imgsEl = document.querySelector(".imgs")
-        let srcs = ["src/components/imgs/code.png", "src/components/imgs/hero.jpg", "src/components/imgs/melee.gif", "src/components/imgs/fox.jpg", "src/components/imgs/me.jpg", "src/components/imgs/codewars.png"];
+        let srcs = ["src/components/imgs/me.jpg", "src/components/imgs/code.png", "src/components/imgs/hero.jpg", "src/components/imgs/melee.gif", "src/components/imgs/fox.jpg", "src/components/imgs/codewars.png"];
         if (e.target.classList[1] === 'btn-forward') {
             i++;
             if (i >= srcs.length) {
@@ -23,7 +23,6 @@ const Gallery = () => {
         console.log(i);
         return imgsEl.src;
     }
-    console.log(i);
     return (
             <div className="gallery-container">
                 <button onClick={handleGallery} className="gallery-btn btn-backwards">&gt;</button>

@@ -20,7 +20,7 @@ const App = () => {
                 <Objective className="test"/>
             </div>
             <div id="one" className="one-pages-container">
-                <h1>One-Pages <small><small>or landing pages</small></small></h1>
+                <h1 className="title">One-Pages <small><small>or landing pages</small></small></h1>
                 <OnePageList info={onePages}/>
             </div>
             <div id="pro" className="projects-container">

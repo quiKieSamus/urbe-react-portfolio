@@ -9,8 +9,7 @@ const ProjectCard = ({title, technologies, overview, link}) => {
                 <h3>{title}</h3>
                 <hr />
                 <p>Used Technologies</p>
-                <ul>
-                    {console.log("hola")}   
+                <ul> 
                     {technologies.map((user, i) =>{
                         return(<li>{technologies[i]}</li>);
                     })}

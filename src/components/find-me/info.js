@@ -14,7 +14,7 @@ export const networks = [
     },
 
     {
-        icon: "https://quikiesamus.github.io/my-portfolio/icons/discord.jpg",
+        icon: "https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png",
         user: "Galva#9489",
         name: "discord",
         link: ""
