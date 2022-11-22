@@ -55,7 +55,7 @@ html,
     font-size: 2em;
     flex-direction: column;
     color: rgb(208, 204, 204);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/imgs/code.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/code.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
