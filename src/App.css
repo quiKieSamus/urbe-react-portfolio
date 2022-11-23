@@ -80,7 +80,7 @@ html,
 }
 
 .info-container {
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(3, 95, 67));
+    background-image: linear-gradient(#090909, rgb(3, 95, 67));
 }
 
 .obj {
@@ -136,7 +136,7 @@ html,
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(rgb(3, 95, 67), rgb(0, 0, 0));
+    background-image: linear-gradient(rgb(3, 95, 67), #090909);
     color: white;
 }
 
@@ -164,7 +164,7 @@ html,
 }
 
 .projects-container {
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(5, 3, 95));
+    background-image: linear-gradient(#090909, rgb(5, 3, 95));
 }
 
 .card-container {
